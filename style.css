@@ -1,0 +1,35 @@
+.content {
+    margin-top: 50px;
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.menu__food {
+    font-size: 20px;
+    font-weight: 700;
+}
+.food__content {
+    margin-top: 50px;
+}
+.food-travel {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.input1:checked + .food__item-1 {
+    opacity: 1;
+    visibility: visible;
+}
+.input2:checked + .food__item-2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.input3:checked + .food__item-3 {
+    opacity: 1;
+    visibility: visible;
+}
+
